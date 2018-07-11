@@ -1,0 +1,9 @@
+server.port: 30080
+kafka.connect: 172.30.42.151:32400
+zookeeper.connect: 172.30.42.151:31497
+kafka.groupId: lab1
+
+kafka.client.id: iris-cloud-labsys-1
+kafka.application.id: iris-cloud-labsys-1
+#kafka.connect: localhost:9092
+#zookeeper.connect: localhost:2181

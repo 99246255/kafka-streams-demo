@@ -1,19 +1,19 @@
-ÏÂÔØkafka_2.12-1.0.0
-windowsÅäÖÃ²Î¿¼£ºhttps://www.cnblogs.com/flower1990/p/7466882.html
+ä¸‹è½½kafka_2.12-1.0.0
+windowsé…ç½®å‚è€ƒï¼šhttps://www.cnblogs.com/flower1990/p/7466882.html
 
-½øÈëconfigÄ¿Â¼ÕÒµ½ÎÄ¼şserver.properties²¢´ò¿ª
-ÕÒµ½²¢±à¼­log.dirs=D:\Kafka\kafka_2.12-0.11.0.0\kafka-logs
-ÕÒµ½²¢±à¼­zookeeper.connect=localhost:2181
-
-
-½øÈëKafka°²×°Ä¿Â¼D:\Kafka\kafka_2.12-0.11.0.0£¬°´ÏÂShift+ÓÒ¼ü£¬Ñ¡Ôñ¡°´ò¿ªÃüÁî´°¿Ú¡±Ñ¡Ïî£¬´ò¿ªÃüÁîĞĞ£¬ÊäÈë£º
-1. Æô¶¯zookeeper   .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-2. ÅäÖÃkafka,  .\bin\windows\kafka-server-start.bat .\config\server.properties
-
-Kafka»á°´ÕÕÄ¬ÈÏ£¬ÔÚ9092¶Ë¿ÚÉÏÔËĞĞ£¬²¢Á¬½ÓzookeeperµÄÄ¬ÈÏ¶Ë¿Ú£º2181
+è¿›å…¥configç›®å½•æ‰¾åˆ°æ–‡ä»¶server.propertieså¹¶æ‰“å¼€
+æ‰¾åˆ°å¹¶ç¼–è¾‘log.dirs=D:\Kafka\kafka_2.12-0.11.0.0\kafka-logs
+æ‰¾åˆ°å¹¶ç¼–è¾‘zookeeper.connect=localhost:2181
 
 
-Èç¹ûÕÒ²»Ö÷Àà£¬bin\windowsÄ¿Â¼ÖĞµÄkafka-run-class.bat   179ĞĞ
-%CLASSPATH%¼ÓÉÏË«ÒıºÅ
+è¿›å…¥Kafkaå®‰è£…ç›®å½•D:\Kafka\kafka_2.12-0.11.0.0ï¼ŒæŒ‰ä¸‹Shift+å³é”®ï¼Œé€‰æ‹©â€œæ‰“å¼€å‘½ä»¤çª—å£â€é€‰é¡¹ï¼Œæ‰“å¼€å‘½ä»¤è¡Œï¼Œè¾“å…¥ï¼š
+1. å¯åŠ¨zookeeper   .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+2. é…ç½®kafka,  .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+Kafkaä¼šæŒ‰ç…§é»˜è®¤ï¼Œåœ¨9092ç«¯å£ä¸Šè¿è¡Œï¼Œå¹¶è¿æ¥zookeeperçš„é»˜è®¤ç«¯å£ï¼š2181
+
+
+å¦‚æœæ‰¾ä¸ä¸»ç±»ï¼Œbin\windowsç›®å½•ä¸­çš„kafka-run-class.bat   179è¡Œ
+%CLASSPATH%åŠ ä¸ŠåŒå¼•å·
  set COMMAND=%JAVA% %KAFKA_HEAP_OPTS% %KAFKA_JVM_PERFORMANCE_OPTS% %KAFKA_JMX_OPTS% %KAFKA_LOG4J_OPTS% -cp "%CLASSPATH%" %KAFKA_OPTS% %*
-À´Ô´²Î¿¼:http://blog.csdn.net/u012931508/article/details/55211390
+æ¥æºå‚è€ƒ:http://blog.csdn.net/u012931508/article/details/55211390
