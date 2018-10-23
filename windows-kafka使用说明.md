@@ -16,4 +16,4 @@ Kafka会按照默认，在9092端口上运行，并连接zookeeper的默认端�
 如果找不主类，bin\windows目录中的kafka-run-class.bat   179行
 %CLASSPATH%加上双引号
  set COMMAND=%JAVA% %KAFKA_HEAP_OPTS% %KAFKA_JVM_PERFORMANCE_OPTS% %KAFKA_JMX_OPTS% %KAFKA_LOG4J_OPTS% -cp "%CLASSPATH%" %KAFKA_OPTS% %*
-来源参考:http://blog.csdn.net/u012931508/article/details/55211390
+来源参考:http://blog.csdn.net/u012931508/article/details/55211390 
